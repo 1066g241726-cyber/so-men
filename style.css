@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&display=swap');
+
+body {
+    background-color: #fff8e7;
+    font-family: 'M PLUS Rounded 1c', 'Hiragino Maru Gothic ProN', sans-serif;
+    text-align: center;
+    color: #443322;
+    padding: 30px 10px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #ff6b4a;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* タイマー表示エリア */
+#count {
+    display: block;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ff5252;
+    background-color: #ffffff;
+    width: 240px;
+    margin: 0 auto 25px auto;
+    padding: 15px 0;
+    border-radius: 20px;
+    box-shadow: 0 8px 0 #ffe0b2, 0 10px 15px rgba(0,0,0,0.05);
+    letter-spacing: 2px;
+}
+
+/* ボタン共通設定 */
+button {
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+/* スタートボタン */
+#start {
+    background-color: #ff9800;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #e65100;
+}
+
+#start:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #e65100;
+}
+
+#start:disabled {
+    background-color: #ccc;
+    box-shadow: 0 5px 0 #999;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* リセットボタン */
+#reset {
+    background-color: #cfd8dc;
+    color: #455a64;
+    box-shadow: 0 5px 0 #90a4ae;
+}
+
+#reset:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #90a4ae;
+}
+
+/* メッセージエリア */
+#messageArea {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #795548;
+}
